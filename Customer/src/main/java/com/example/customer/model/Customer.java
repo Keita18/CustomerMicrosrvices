@@ -1,12 +1,11 @@
 package com.example.customer.model;
 
 import lombok.*;
-import org.hibernate.Hibernate;
-import org.hibernate.annotations.Generated;
 
 import javax.persistence.*;
-import java.util.Objects;
 
+@Setter
+@Getter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
